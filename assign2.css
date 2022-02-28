@@ -1,0 +1,32 @@
+H6{
+    background-color: rgb(253, 214, 245);
+    animation: navload 300ms ease-in;
+    
+}
+.container-fluid{
+    background-color: aquamarine;
+    animation: navload 300ms ease-in;
+}
+.customer-review{
+    background-color: rgb(175, 252, 235);
+    text-align: center;
+    margin: 0.5in;
+}
+.fist-cards{
+    margin-top: 5px;
+}
+
+@keyframes navload{
+    0%{
+transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.card:hover{
+    font-weight:bolder;
+    background-color: rgb(121, 248, 227);
+    font-stretch:extra-expanded;
+    color:aliceblue;
+}
